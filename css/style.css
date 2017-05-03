@@ -1,0 +1,105 @@
+  /* Style for "background" */
+
+  .wrapper {
+    width: 960px;
+    height: 883px;
+    margin: 0 auto;
+    font-family: Tahoma;
+    color: #e6e6e6;
+    background-image: url(../images/background.png);
+  }
+/*style for logo and contacts*/
+
+  header {
+    height: 147px;
+    width: 100%;
+    vertical-align: bottom;
+    padding-top: 57px;
+    margin-bottom: 14px;
+  }
+
+  .logo {
+    width: 266px;
+    height: 147px;
+    display: inline-block;
+    margin-left: 71px;
+    text-align: center;
+    background: url(../images/palm_tree_new.png) right no-repeat, url(../images/logo.png) 0 70% no-repeat;
+  }
+
+  .logo-slogan {
+    margin-top: 120px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .contacts {
+    width: 89px;
+    height: 36px;
+    margin-left: 457px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .contact-us {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .phone-number, .email {
+    font-size: 8px;
+    font-weight: 400;
+  }
+
+  .contact-us {
+    margin-bottom: 7px;
+  }
+
+  .phone-number .main {
+    text-align: center;
+    font-size: 0;
+  }
+/*style for main content*/
+
+  .main p {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .country {
+    display: inline-block;
+    max-width: 261px;
+    max-height: 178px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .country:first-child, .country:nth-child(4) {
+    margin-left: 71px;
+  }
+
+  .country img {
+    width: 100%;
+  }
+
+  .country:before {
+    content: "";
+    background: url(../images/border.png);
+    width: 270px;
+    height: 188px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+  }
+
+  footer {
+    width: 171px;
+    height: 11px;
+    margin-left: 401px;
+    margin-top: 120px;
+    font-size: 10px;
+    font-weight: 400;
+  }
